@@ -1,18 +1,20 @@
 import React from "react";
-import Card from "./Card";
 import Navigation from "./Navigation";
+import PostFormCard from "./PostFormCard";
+import PostCard from "./PostCard";
 
 const Home = () => {
+  
   return (
-    <div className="text-left flex mt-4 max-w-4xl mx-auto gap-4">
-      <div className="w-1/3">
-        <div >
-            <Navigation/>
+    <div className="text-left flex mt-4 gap-4">
+      <div className="w-1/4">
+        <div>
+          <Navigation />
         </div>
       </div>
-      <div className="grow">
-        <Card>Form here</Card>
-        posts
+      <div className="w-3/4">
+        <PostFormCard />
+        <PostCard/>
       </div>
     </div>
   );

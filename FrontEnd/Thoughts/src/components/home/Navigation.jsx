@@ -8,7 +8,7 @@ const Navigation = () => {
         <div className="px-4 py-2">
         <h2 className="text-black-400 font-bold mb-3">Navigation</h2>
         <a href="" className="flex gap-2 py-3">
-          <svg
+          <svg className="py-1 w-5"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -25,7 +25,7 @@ const Navigation = () => {
           Feed
         </a>
         <a href="" className="flex gap-2 py-3">
-          <svg
+          <svg className="py-1 w-5"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 16 16"
             fill="currentColor"
@@ -53,7 +53,7 @@ const Navigation = () => {
           Groups
         </a>
         <a href="" className="flex gap-2 py-3">
-          <svg
+          <svg className="py-1 w-5"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 16 16"
             fill="currentColor"
@@ -64,7 +64,7 @@ const Navigation = () => {
           Favourites
         </a>
         <a href="" className="flex gap-2 py-3">
-          <svg
+          <svg className="py-1 w-5"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -81,7 +81,7 @@ const Navigation = () => {
           Messages
         </a>
         <a href="" className="flex gap-2 py-3">
-          <svg
+          <svg className="w-5"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 16 16"
             fill="currentColor"
