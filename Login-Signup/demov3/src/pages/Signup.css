@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  .outer {
+    display: flex;
+  }
+  
+  .left {
+    width: 55%;
+    height: 100vh;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1662330357136-3be4a00ab42d?q=80&w=1954&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    display: flex;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* check for juscon */
+  }
+  
+  .right {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rimain {
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 1.7rem;
+    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  
+  h2 {
+    font-size: 30px;
+    font-weight: normal;
+    /* margin: 50px 0; */
+    /* text-align: center; */
+  }
+  
+  .line {
+    display: block;
+    background-color: lightcoral;
+    width: 50%;
+    height: 5px;
+    border-radius: 7px;
+    margin: 5px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .inpts input {
+    width: 80%;
+    font-size: 18px;
+    border: none;
+    padding: 7px;
+    border-radius: 4px;
+    margin: 10px 0px;
+    background-color: gainsboro;
+  }
+  .inpts input:hover{
+        scale: 1.02;
+  }
+  
+  .forp {
+    font-size: 14px;
+    color: lightcoral;
+    cursor: pointer;
+    text-align: right;
+    margin-right: 60px;
+  }
+  
+  .logn {
+    width: 85%;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px 0px;
+    background-color: lightcoral;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 8px 5px rgb(226, 223, 223);
+  }
+
+  .logn:hover{
+    scale: 1.02;
+    box-shadow: 5px 10px 8px rgb(226, 223, 223);
+  }
+  
+  .or {
+    text-align: center;
+    color: grey;
+    margin: 9px;
+    margin-right: 45px;
+    margin-bottom: 15px;
+  }
+  
+  .btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 30%; */
+    margin-right: 38px;
+    margin-bottom: 10px;
+  }
+  
+  i {
+    border: 1px solid gray;
+    padding: 4px;
+    padding-top: 16px;
+    color: rgb(46, 41, 41);
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .gog:hover{
+    scale: 1.03;
+  }
+
+  .linker{
+    color: skyblue;
+    cursor: pointer;
+    text-decoration: none;
+    
+  }
+  .linker:hover{
+    text-shadow: 2px 2px 2px rgb(50, 48, 48);
+  }
+
+  @media screen and (max-width: 768px) {
+    .outer {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-image: url(https://images.unsplash.com/photo-1662330357136-3be4a00ab42d?q=80&w=1954&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+      background-size: cover;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .left {
+      background: transparent;
+      width: 100%;
+      height: 20%;
+      box-shadow: none;
+    }
+    .rimain {
+      background-color: #fff;
+      width: 80%;
+      box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.7);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .rimain {
+      width: 80%;
+    }
+  }
+  
