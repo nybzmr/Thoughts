@@ -17,7 +17,7 @@ function Login() {
         <div className="right">
           <div className="rimain">
             <div className="head">
-              <h2>Login to your account</h2>
+              <h2><pre>    Login to your account</pre></h2>
               <span className="line"></span>
             </div>
             <div className="inpts">

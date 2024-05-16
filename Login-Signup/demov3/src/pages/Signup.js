@@ -5,6 +5,7 @@ import GoogleIcon from "@mui/icons-material/Google";
 import XIcon from "@mui/icons-material/X";
 import AppleIcon from "@mui/icons-material/Apple";
 
+
 function Signup() {
   return (
     <div className="outmost">
@@ -17,7 +18,7 @@ function Signup() {
         <div className="right">
           <div className="rimain">
             <div className="head">
-              <h2>Create new account</h2>
+              <h2><pre>      Create new account</pre></h2>
               <span className="line"></span>
             </div>
             <div className="inpts">
