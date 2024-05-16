@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -42,13 +45,25 @@
     /* align-items: center; */
   }
   
-  h2 {
-    font-size: 30px;
-    font-weight: normal;
+  pre {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 899;
+    font-style: normal;
     /* margin: 50px 0; */
     /* text-align: center; */
   }
-  
+
+  h1{
+    font-size:100px;
+    color:antiquewhite;
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "ELSH" 0;
+  } 
   .line {
     display: block;
     background-color: lightcoral;
@@ -68,6 +83,12 @@
     border-radius: 4px;
     margin: 10px 0px;
     background-color: gainsboro;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
   }
   .inpts input:hover{
         scale: 1.02;
@@ -92,6 +113,11 @@
     color: #fff;
     cursor: pointer;
     box-shadow: 1px 8px 5px rgb(226, 223, 223);
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal
   }
 
   .logn:hover{
@@ -113,7 +139,7 @@
     justify-content: space-around;
     /* gap: 30%; */
     margin-right: 38px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
   }
   
   i {
@@ -127,7 +153,7 @@
   }
   
   .gog:hover{
-    scale: 1.03;
+    scale: 1.2;
   }
 
   .linker{
