@@ -11,7 +11,7 @@ function Login() {
       <div className="outer">
         <div className="left">
           <h1>Hello!</h1>
-          <p>Welcome back to thoughts</p>
+          <p>Welcome back to Thoughts</p>
           <Link to="/signup" className="linker">No account?</Link>
         </div>
         <div className="right">
@@ -24,7 +24,7 @@ function Login() {
               <input type="email" placeholder="Email" />
               <input type="password" placeholder="Password" />
             </div>
-            <span className="forp">Forgot Password</span>
+            <span className="forp">Forgot Password?</span>
             <button className="logn">Login</button>
             <p className="or"> or</p>
 

@@ -12,7 +12,7 @@ function Signup() {
       <div className="outer">
         <div className="left">
           <h1>Hello!</h1>
-          <p>Welcome  to thoughts</p>
+          <p>Welcome  to Thoughts</p>
           <Link to="/login"  className="linker" >Already have an account?</Link>
         </div>
         <div className="right">
