@@ -1,40 +1,48 @@
 import React, { useState } from "react";
 import "./Signup.css";
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
 import GoogleIcon from "@mui/icons-material/Google";
 import XIcon from "@mui/icons-material/X";
 import AppleIcon from "@mui/icons-material/Apple";
-// import axios from 'axios';
 
 function Signup() {
   // State variables to store email, password, and confirm password
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
+  const navigate = useNavigate();
+
 
   // Function to handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(email , password , confirmPassword)
     // Check if password and confirm password match
-    // if (password !== confirmPassword) {
-    //   alert("Passwords do not match");
-    //   return;
-    // }
+    if (password !== confirmPassword) {
+      alert("Passwords do not match");
+      return;
+    }
 
-    // try {
-      // Make an HTTP POST request to your backend API
-    //   const response = await axios.post('your-backend-url/signup', {
-    //     email,
-    //     password
-    //   });
-
-      // Handle response from the server, like showing a success message or redirecting
-    //   console.log(response.data);
-    // } catch (error) {
-      // Handle error, like showing an error message to the user
-    //   console.error('Error:', error);
-    // }
+    console.log(email);
+    try {
+      // Make an HTTP POST request to backend API
+      const response = await axios.post('http://localhost:8081/Thoughts/', {
+        email,
+        password
+      });
+      
+      console.log(response.data);
+      console.log("Success");
+      
+      setConfirmPassword("");
+      setPassword("");
+      navigate('/home');
+      
+    } catch (error) {
+      console.error('Error:', error);
+    }
   };
 
   return (

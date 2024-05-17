@@ -1,9 +1,11 @@
 import React ,{useState} from "react";
 import "./Signup.css";
+// import axios from 'axios';
 import { Link } from 'react-router-dom';
 import GoogleIcon from "@mui/icons-material/Google";
 import XIcon from "@mui/icons-material/X";
 import AppleIcon from "@mui/icons-material/Apple";
+
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -11,21 +13,21 @@ function Login() {
   
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(email , password)
+    console.log(email , password);
     
-  //   try {
-      // Make an HTTP POST request to your backend API
-  //     const response = await axios.post('your-backend-url/login', {
-  //       email,
-  //       password
-  //     });
+    try {
+      // Make an HTTP POST request to backend API
+      const response = await axios.post('http://localhost:8081/Thoughts/', {
+        email,
+        password
+      });
       
-      // Handle response from the server, like showing a success message or redirecting
-  //     console.log(response.data);
-  //   } catch (error) {
-      // Handle error, like showing an error message to the user
-  //     console.error('Error:', error);
-  //   }
+      console.log(response.data);
+      console.log("Success");
+
+    } catch (error) {
+      console.error('Error:', error);
+    }
   };
   return (
     <div className="outmost">
