@@ -41,8 +41,8 @@ function Signup() {
     <div className="outmost">
       <div className="outer">
         <div className="left">
-          <h1>Hello!</h1>
-          <p>Welcome to Thoughts</p>
+          <h1>Thoughts</h1>
+          <p>Welcome to Thoughts! Signup today</p>
           <Link to="/login" className="linker">Already have an account?</Link>
         </div>
         <div className="right">

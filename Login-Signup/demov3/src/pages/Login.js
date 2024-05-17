@@ -31,8 +31,8 @@ function Login() {
     <div className="outmost">
       <div className="outer">
         <div className="left">
-          <h1>Hello!</h1>
-          <p>Welcome back to Thoughts</p>
+          <h1>Thoughts</h1>
+          <p>Welcome back</p>
           <Link to="/signup" className="linker">New to Thoughts?</Link>
         </div>
         <div className="right">
