@@ -17,7 +17,7 @@
   }
   
   .left {
-    width: 55%;
+    width: 60%;
     height: 100vh;
     /* background-color: red; */
     background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
@@ -30,30 +30,31 @@
   }
   
   .right {
-    width: 45%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    background-image: url(https://images.pexels.com/photos/7130560/pexels-photo-7130560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(https://wallpapers.com/images/featured/pastel-gradient-background-etu0z7lbeebg6mlf.jpg);
   }
   
   .rimain {
     width: 50%;
     /* border: 1px solid black; */
     padding: 1.7rem;
-    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: -10px 10px 10px 10px rgba(0, 0, 0, 0.3);
     border-radius: 9px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
   }
   
   pre {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 899;
+    font-weight: 500;
     font-style: normal;
+    font-size: 30px;
     /* margin: 50px 0; */
     /* text-align: center; */
   }
@@ -87,17 +88,17 @@
   }
   
   .inpts input {
-    width: 80%;
+    width: 90%;
     font-size: 18px;
     border: none;
     padding: 7px;
     border-radius: 4px;
     margin: 10px 0px;
     background-color: gainsboro;
-
+    /* align-items: center; */
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 200;
     font-style: normal;
 
   }
@@ -119,7 +120,7 @@
   }
   
   .logn {
-    width: 85%;
+    width: 94%;
     font-size: 18px;
     padding: 7px;
     border-radius: 4px;
@@ -132,7 +133,7 @@
 
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 250;
+    font-weight: 200;
     font-style: normal
   }
 
@@ -145,15 +146,20 @@
     text-align: center;
     color: grey;
     margin: 9px;
-    margin-right: 45px;
+    margin-right: 21px;
     margin-bottom: 15px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    font-style: normal
   }
   
   .btns {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* gap: 30%; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    gap: 15%;
     margin-right: 38px;
     margin-bottom: 10px; 
   }
@@ -165,6 +171,7 @@
     color: rgb(46, 41, 41);
     border-radius: 7px;
     cursor: pointer;
+    
     box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.3);
   }
   

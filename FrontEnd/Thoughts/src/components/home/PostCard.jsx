@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import Avatar from "./Avatar";
+import './style.css'
 
 const PostCard = ({ name, time, likes, postContent, comments, imageUrl }) => {
   return (
