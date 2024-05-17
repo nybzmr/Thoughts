@@ -1,22 +1,26 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Navigation from "./Navigation";
 import PostFormCard from "./PostFormCard";
-import './style.css'
+import './style.css';
 import Postdb from "./Postdb";
-
+import Nav from "./Nav";
+import Suggest from "./Suggest";
 
 const Home = () => {
-
   return (
-    <div className="text-left flex mt-4 gap-4">
-      <div className="w-1/6 fixed block">
-        <Navigation />
-      </div>
-      <div className="w-1/6"></div>
-      <div className="w-3/4 px-16">
-        <PostFormCard />
-      {/* Getting posts from database */}
-        <Postdb/>
+    <div className="home-container">
+      <Nav />
+      <div className="main-content">
+        <div className="navbar-section">
+          <Navigation />
+        </div>
+        <div className="posts-section">
+          <PostFormCard />
+          <Postdb />
+        </div>
+        <div className="suggest-section">
+          <Suggest />
+        </div>
       </div>
     </div>
   );

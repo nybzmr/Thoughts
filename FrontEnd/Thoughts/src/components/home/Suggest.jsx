@@ -3,7 +3,7 @@ import './Suggest.css'
 
 function Suggest() {
   return (
-    <div>
+    <div className='container'>
       <div className="Sugg-comp">
       <h2>Suggestions For You</h2>
 

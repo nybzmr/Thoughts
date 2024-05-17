@@ -7,7 +7,7 @@ const Navigation = () => {
   return (
     <div>
       <Card>
-        <div className="px-4 py-2">
+        <div className="px-4 py-2 ">
         <h2 className="text-black-400 font-bold mb-3">Navigation</h2>
         <a href="" className="flex gap-2 py-3">
           <svg className="py-1 w-5"

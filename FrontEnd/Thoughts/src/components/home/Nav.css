@@ -1,5 +1,5 @@
 nav {
-    width: 100%;
+    width: 105%;
     background-color: orangered;
     display: flex;
     justify-content: space-between;
@@ -8,6 +8,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1000;
+    border-radius: 8px;
   }
   
   .social-icons {
@@ -66,7 +67,7 @@ nav {
     position: absolute;
     z-index: 100;
     top: 50%;
-    left: 10px;
+    left: 25px;
     transform: translateY(-50%);
   }
   

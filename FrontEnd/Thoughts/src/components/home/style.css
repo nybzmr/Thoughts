@@ -30,3 +30,32 @@ body{
     scale: 1.02;
     box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.1);
 } */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .main-content {
+    display: flex;
+    width: 100%;
+    margin-top: 16px; /* Adjusts the spacing between Nav and the main content */
+  }
+  
+  .navbar-section {
+    width: 20%;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto; /* Allows scrolling if content overflows */
+  }
+  
+  .posts-section {
+    width: 60%;
+    padding: 0 16px;
+  }
+  
+  .suggest-section {
+    width: 20%;
+  }
+  
