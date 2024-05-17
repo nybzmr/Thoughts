@@ -1,5 +1,7 @@
 import React from "react";
 import Card from "./Card";
+import './style.css'
+
 
 const Navigation = () => {
   return (

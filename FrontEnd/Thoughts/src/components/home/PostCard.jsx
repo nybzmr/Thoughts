@@ -1,6 +1,9 @@
 import React from "react";
 import Card from "./Card";
 import Avatar from "./Avatar";
+import './style.css'
+
+
 const PostCard = () => {
   const name = "Anonymous";
   const time = "2 hours";

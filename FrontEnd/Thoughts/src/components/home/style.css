@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+.flex{
+    /* font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    font-style: normal; */
+
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+}
+
+/* .nav1{
+    cursor: pointer;
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+}   
+
+.nav1:hover{
+    scale: 1.02;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.1);
+} */

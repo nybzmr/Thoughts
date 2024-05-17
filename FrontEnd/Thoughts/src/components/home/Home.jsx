@@ -2,6 +2,8 @@ import React from "react";
 import Navigation from "./Navigation";
 import PostFormCard from "./PostFormCard";
 import PostCard from "./PostCard";
+import './style.css'
+
 
 const Home = () => {
   
