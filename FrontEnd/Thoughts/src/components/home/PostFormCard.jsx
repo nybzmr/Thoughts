@@ -76,7 +76,7 @@ const PostFormCard = () => {
           </button>
         </div>
         <div >
-          <button className="flex gap-1 py-1 px-2 rounded px-3 bg-[#218DFA] hover:bg-[#0d7eee]">
+          <button className="flex gap-1 py-1 px-2 rounded px-3 bg-[#0077b6] hover:bg-[#03045e] text-white">
             <svg
               className="w-5"
               xmlns="http://www.w3.org/2000/svg"

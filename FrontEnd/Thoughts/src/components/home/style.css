@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
 
 body{
-    background-color: #CAE2BC;
+    background-color: #ade8f4;
 }
 .flex{
     /* font-family: "Oswald", sans-serif;
@@ -16,6 +16,11 @@ body{
     font-optical-sizing: auto;
     font-weight: 250;
     font-style: normal;
+    
+}
+.leftnav{
+  top: 15.5%;
+  position: fixed;
 }
 
 /* .nav1{
@@ -34,6 +39,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-top: 60px;
   }
   
   .main-content {
@@ -47,7 +53,7 @@ body{
     position: sticky;
     top: 0;
     height: 100vh;
-    overflow-y: auto; /* Allows scrolling if content overflows */
+    /* overflow-y: auto; Allows scrolling if content overflows */
   }
   
   .posts-section {
@@ -57,5 +63,9 @@ body{
   
   .suggest-section {
     width: 20%;
+  }
+
+  .w-5{
+    background-color: #0077b6;
   }
   

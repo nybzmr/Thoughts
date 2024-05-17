@@ -1,5 +1,6 @@
 import React from 'react'
 import './Suggest.css'
+import Avatar from './Avatar'
 
 function Suggest() {
   return (
@@ -9,8 +10,21 @@ function Suggest() {
 
       <div className="sugg-people">
         <div className="s-left">
-          <div className="s-img">B</div>
+        <Avatar></Avatar>
+          {/* <div className="s-img">B</div> */}
           <h3>Elon Musk</h3>
+        </div>
+
+        <div className="s-right">
+          <button className="left">Follow</button>
+          <button className="right">Dismiss</button>
+        </div>
+      </div>
+      <div className="sugg-people">
+        <div className="s-left">
+          {/* <div className="s-img">B</div> */}
+          <Avatar></Avatar>
+          <h3>Niels Bohr</h3>
         </div>
 
         <div className="s-right">
@@ -20,8 +34,9 @@ function Suggest() {
       </div>
       <div className="sugg-people">
         <div className="s-left">
-          <div className="s-img">B</div>
-          <h3>Elon Musk</h3>
+          {/* <div className="s-img">B</div> */}
+          <Avatar></Avatar>
+          <h3>Einstein</h3>
         </div>
 
         <div className="s-right">
@@ -31,8 +46,9 @@ function Suggest() {
       </div>
       <div className="sugg-people">
         <div className="s-left">
-          <div className="s-img">B</div>
-          <h3>Elon Musk</h3>
+          {/* <div className="s-img">B</div> */}
+          <Avatar></Avatar>
+          <h3>Newton </h3>
         </div>
 
         <div className="s-right">
@@ -40,10 +56,25 @@ function Suggest() {
           <button>Dismiss</button>
         </div>
       </div>
+
       <div className="sugg-people">
         <div className="s-left">
-          <div className="s-img">B</div>
-          <h3>Elon Musk</h3>
+          {/* <div className="s-img">B</div> */}
+          <Avatar></Avatar>
+          <h3>Bill Gates</h3>
+        </div>
+
+        <div className="s-right">
+          <button>Follow</button>
+          <button>Dismiss</button>
+        </div>
+      </div>
+
+      <div className="sugg-people">
+        <div className="s-left">
+          {/* <div className="s-img">B</div> */}
+          <Avatar></Avatar>
+          <h3>Mark Zuck</h3>
         </div>
 
         <div className="s-right">

@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
 nav {
-    width: 105%;
-    background-color: orangered;
+    width: 100%;
+    background-color: #0077b6;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 30px;
-    position: sticky;
+    /* align-items: center; */
+    padding: 10px 50px;
+    position: fixed;
     top: 0;
+    left: 0;
     z-index: 1000;
-    border-radius: 8px;
+    border-radius: 0px;
+
+    font-family: "Teachers", sans-serif;
+    color:white;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;  
+    text-align: center;  
   }
   
   .social-icons {
@@ -24,12 +34,16 @@ nav {
   .social-icons div:hover {
     transform: scale(1.2);
     transition: .3s;
+    cursor: pointer;
   }
   
   .n-logo h1 {
     font-size: 30px;
     cursor: pointer;
-    font-family: 'Roboto', sans-serif
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
   }
   
   .n-img {
@@ -61,13 +75,15 @@ nav {
     padding: 5px 45px;
     border-radius: 30px;
     border: none;
+    color: rgba(0,0,0,0.9);
   }
   
   .search-icon {
     position: absolute;
     z-index: 100;
     top: 50%;
-    left: 25px;
+    color: black;
+    left: 35px;
     transform: translateY(-50%);
   }
   

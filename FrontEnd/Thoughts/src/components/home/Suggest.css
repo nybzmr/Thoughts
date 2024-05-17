@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
 
 .Sugg-comp {
     width: 20%;
     margin-right: 80px;
     /* min-height: 200px; */
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 8px;
     background-color: #fff;
     position: fixed;
-    /* top: 50%; */
+    top: 16.5%;
     right: 0;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
   }
   
   .Sugg-comp h2 {
@@ -49,18 +50,21 @@
   
   .s-right button {
     padding: 5px 10px;
-    background: linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
+    background: #0077b6;
     border-radius: 5px;
     font-size: 13px;
     border: none;
     color: #fff;
     cursor: pointer;
+    margin: 3px;
   }
   
   .s-right button:hover {
-    border: 2px solid orangered;
-    background-color: transparent;
+    /* border: 2px solid orangered; */
+    background-color: #03045e;
+    scale: 1.02;
   }
+  
   
   @media screen and (min-width:769px) and (max-width:1024px) {
     .Sugg-comp {
@@ -89,4 +93,14 @@
       font-size: 12px;
     }
   }
+
+  .container{
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+  }
+
+
+  
   
