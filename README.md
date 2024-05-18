@@ -15,7 +15,11 @@ Privacy Controls
 Contains a unique feed where you can view other's posts anonymously and can react to it.
 
 -- Meet the team --
-Tanishq Kancharla ; kt034
-Siddharth 
-Nayaab
+->Tanishq Kancharla 
+->Siddharth Paladi
+->Nayaab Zameer
+->Srinath
+->Haider
+->Koushik
+->Lokesh
 
