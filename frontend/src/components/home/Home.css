@@ -1,0 +1,54 @@
+/* Home.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Teachers", sans-serif;
+    padding: 0 10px;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr; /* Adjust the columns' width ratios */
+    grid-template-areas: 
+        "navbar-section posts-section suggest-section";
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.navbar-section {
+    grid-area: navbar-section;
+}
+
+.posts-section {
+    grid-area: posts-section;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between PostFormCard and Postdb */
+}
+
+.suggest-section {
+    grid-area: suggest-section;
+    position: sticky;
+    top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "navbar-section"
+            "posts-section"
+            "suggest-section";
+    }
+
+    .suggest-section {
+        position: static;
+    }
+}
